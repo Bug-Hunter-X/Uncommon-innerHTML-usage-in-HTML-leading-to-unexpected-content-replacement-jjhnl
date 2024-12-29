@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug related to the usage of innerHTML in HTML.  The primary issue lies in how innerHTML replaces the entire content of a target element, even when an append operation is subsequently attempted. The provided solution clarifies the correct usage of innerHTML for adding content without unintentional overwriting of existing content.
